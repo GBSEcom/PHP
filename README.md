@@ -32,7 +32,7 @@ composer install first-data/gateway
     "/": "*@dev"
   }
 }
-
+```
 
 ## Repo Organization
 
