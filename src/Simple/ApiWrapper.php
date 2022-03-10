@@ -54,7 +54,7 @@ class ApiWrapper
      */
     protected function serialize($payload)
     {
-        return \GuzzleHttp\json_encode(
+        return \GuzzleHttp\Utils::jsonEncode(
           ObjectSerializer::sanitizeForSerialization(
             $payload
           )
